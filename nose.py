@@ -1,10 +1,7 @@
 import cv2
 import numpy as np
 
-nose_cascade = cv2.CascadeClassifier('./cascade_files/haarcascade_mcs_nose.xml')
-
-if nose_cascade.empty():
-  raise IOError('Unable to load the nose cascade classifier xml file')
+nose_cascade = cv2.CascadeClassifier('haarcascade_nose.xml')
 
 cap = cv2.VideoCapture(0)
 ds_factor = 0.5
