@@ -1,2 +1,2 @@
-# face_and-_eye_detector
-Detects Face and eyes using the Haar Cascade Classifier 
+# face_eye_and_nose_detector
+Detects Face and eyes and nose using the Haar Cascade Classifier 
